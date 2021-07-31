@@ -1,0 +1,100 @@
+.footerPostition {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.timerContainer {
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+      /* The image used */
+      background-image: url("../images/pexels-aleksandar-pasaric-2078008.jpg");
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+body {
+    height: 100%;
+}
+
+.backgoundImage {
+
+    /* The image used */
+    background-image: url("../images/pexels-aleksandar-pasaric-2078008.jpg");
+
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(20px);
+  
+  /* Full height */
+  height: 100vh; 
+    min-height: 100vh;
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.countdown {
+    text-align: center;
+    font-size: 10vw;
+    /* margin-top: -30px; */
+    font-weight: bolder;
+    margin-right: 50px;
+    margin-bottom: -30px;
+  }
+
+  .heading {
+    background-color: rgba(0,0,0,0.2);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .addToCalendar {
+    margin-top: 100px;
+  }
+
+  .days, .minutes, .hours {
+      padding-right: 20px;
+  }
+
+  .countdownText {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 50px;
+  }
+
+  .daysText, .hoursText, .minutesText {
+    padding-right: 88px;
+
+  }
+
+  .daysText, .hoursText, .minutesText, .secondsText {
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+
+  .timeRemaining {
+      margin-bottom: 0%;
+      margin-top: 10px;
+  }
+
+  .site-info{
+      color: black;
+  }
